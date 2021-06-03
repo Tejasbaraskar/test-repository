@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=SecureApp/C:\/Users\/Aaba\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.5.0\/spring-security-core-5.5.0.jar&lt;org.springframework.security.core.userdetails(UserDetailsService.class[UserDetailsService" modifiers="1537" timestamp="1622439080615"/>
-<typeInfo handle="=SecureApp/C:\/Users\/Aaba\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.5.0\/spring-security-core-5.5.0.jar&lt;org.springframework.security.provisioning(UserDetailsManager.class[UserDetailsManager" modifiers="1537" timestamp="1622439080615"/>
-<typeInfo handle="=SecureApp/C:\/Users\/Aaba\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.5.1\/spring-data-jpa-2.5.1.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1622444414254"/>
-<typeInfo handle="=SecureApp/C:\/Users\/Aaba\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.5.0\/spring-security-core-5.5.0.jar&lt;org.springframework.security.core.userdetails(UserDetails.class[UserDetails" modifiers="1537" timestamp="1622439080615"/>
-<typeInfo handle="=SecureApp/C:\/Program Files\/Java\/jdk1.8.0_271\/jre\/lib\/rt.jar&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1609996351200"/>
-</typeInfoHistroy>

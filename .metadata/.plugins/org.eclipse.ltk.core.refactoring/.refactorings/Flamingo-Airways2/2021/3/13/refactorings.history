@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;Flamingo-Airways2&apos;&#x0D;&#x0A;- Original project: &apos;Flamingo-Airways2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Flamingo-Airways2/src/main/java/com.zensar.repository&#x0D;&#x0A;     Flamingo-Airways2/src/main/java/com.zensar.service.impl&#x0D;&#x0A;     Flamingo-Airways2/src/main/java/com.zensar.services" description="Delete elements" element1="/src\/main\/java&lt;com.zensar.services" element2="/src\/main\/java&lt;com.zensar.service.impl" element3="/src\/main\/java&lt;com.zensar.service" element4="/src\/main\/java&lt;com.zensar.repository" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1616676428239" subPackages="false" version="1.0"/>
+</session>

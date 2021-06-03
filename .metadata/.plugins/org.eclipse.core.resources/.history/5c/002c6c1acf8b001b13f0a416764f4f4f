@@ -1,0 +1,9 @@
+package com.zensar.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.zensar.beans.FlightBean;
+
+public interface FlightRepository2 extends CrudRepository<FlightBean, Integer> {
+
+}

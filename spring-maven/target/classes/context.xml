@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+
+ <!--  <bean id="emp" class="com.zensar.beans.Employee">
+  
+  <property name="employeeId"  value="1001"></property>
+  <property name="employeeName"  value="Ram"></property>
+  <property name="employeeSalary"  value="10000"></property>
+  <property name="address"  ref="addr"></property>
+  
+  </bean>
+  
+  <bean id="addr" class="com.zensar.beans.Address">
+  <property name="state"  value="MH"></property>
+  <property name="city"  value="Pune"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean> -->                                                           <!-- 1 -->
+
+
+ <!-- <bean id="emp" class="com.zensar.beans.Employee"> 
+  <property name="employeeId" > <value>1001</value></property>
+  <property name="employeeName"> <value>Ram</value></property>  
+ <property name="employeeName">
+ <list> <value>Ram</value>
+   <value>Rama</value>
+  <value>Raman</value>
+ </list>
+  </property>
+ <property name="employeeSalary"> <value>10000</value></property>
+  <property name="address">
+  <list>
+    <ref bean="addr"/>
+    <ref bean="addr1"/> 
+  </list>
+  </property>
+  </bean> 
+  
+     <bean id="addr" class="com.zensar.beans.Address">
+  <property name="state"  value="MH"></property>
+  <property name="city"  value="Pune"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean> 
+  
+  <bean id="addr1" class="com.zensar.beans.Address">
+  <property name="state"  value="M"></property>
+  <property name="city"  value="Mumbai"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean>   
+  -->                                                                       <!--  2 -->
+  
+  
+  
+ <!--  <bean id="emp" class="com.zensar.beans.Employee"> 
+  <property name="employeeId" > <value>1001</value></property>
+ <property name="employeeName">
+ <list> <value>Ram</value>
+   <value>Rama</value>
+  <value>Raman</value>
+ </list>
+  </property>
+ <property name="employeeSalary"> <value>10000</value></property>
+  <property name="address">
+  <bean id="addr" class="com.zensar.beans.Address">
+  <property name="state"  value="MH"></property>
+  <property name="city"  value="Pune"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean>
+  </property>
+  </bean>
+   -->                                                      <!-- 3 -->
+  
+ <!--  <bean id="addr" class="com.zensar.beans.Address">
+  <property name="state"  value="MH"></property>
+  <property name="city"  value="Pune"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean> -->
+  
+  <!-- <bean id="addr1" class="com.zensar.beans.Address">
+  <property name="state"  value="M"></property>
+  <property name="city"  value="Mumbai"></property>
+  <property name="pinCode"  value="411016"></property>  
+  </bean> -->                                                    <!-- 3 -->
+
+
+     <!--  4  using constuctor and property namespace.  first contains parameterise constuctor use c: and second do not contain any constuctor thas why we use property p: in second case -->
+  
+  
+   <!-- <bean id="emp" class="com.zensar.beans.Employee" c:employeeId="1001" c:employeeName="Ram" c:employeeSalary="10000" c:address-ref="addr1" >
+</bean>
+
+<bean id="addr1"  class="com.zensar.beans.Address"  p:state="MHA" p:city="pune" p:pinCode="411046" ></bean> --> 
+
+
+<!-- 5  using set -->
+
+  <!--  <bean id="emp" class="com.zensar.beans.Employee" c:employeeId="1001" c:employeeName="Ram" c:employeeSalary="10000" >
+   <property name="address">
+   <list>
+   <ref bean="addr1"/>
+   </list>
+   </property>
+   
+</bean>
+
+<bean id="addr1"  class="com.zensar.beans.Address"  p:state="MHA" p:city="pune" p:pinCode="411046" ></bean> -->
+
+
+
+
+<!-- 6  autowire byname -->
+
+<!-- <bean id="emp" class="com.zensar.beans.Employee" autowire="byName" >
+<property name="employeeId" value="1001"></property>
+<property name="employeeName" value="Ram"></property>
+<property name="employeeSalary" value="10000"></property>
+</bean>
+
+<bean id="address"  class="com.zensar.beans.Address"  p:state="MHA" p:city="pune" p:pinCode="411046" ></bean> -->
+
+
+
+<!-- 7  autowire byType -->
+
+<!-- <bean id="emp" class="com.zensar.beans.Employee" autowire="byType" >
+<property name="employeeId" value="1001"></property>
+<property name="employeeName" value="Ram"></property>
+<property name="employeeSalary" value="10000"></property>
+</bean>
+
+<bean id="addr1"  class="com.zensar.beans.Address"  p:state="MHA" p:city="pune" p:pinCode="411046" ></bean>
+<bean id="addr2"  class="com.zensar.beans.Address"  p:state="MHA1" p:city="pune1" p:pinCode="4110461" autowire-candidate="false"></bean> -->
+
+
+
+<!-- 8  autowire constructor -->
+
+<!-- <bean id="emp" class="com.zensar.beans.Employee" autowire="constructor" >
+<property name="employeeId" value="1001"></property>
+<property name="employeeName" value="Ram"></property>
+<property name="employeeSalary" value="10000"></property>
+</bean> 
+
+<bean id="addr1"  class="com.zensar.beans.Address"  p:state="MHA" p:city="pune" p:pinCode="411046" ></bean>
+<bean id="addr2"  class="com.zensar.beans.Address"  p:state="MHA1" p:city="pune1" p:pinCode="4110461" autowire-candidate="false"></bean>
+
+-->
+
+
+
+
+
+<bean id="repository"  class="com.zensar.repository.EmployeeRepositoryImpl">
+<property name="template" ref="jdbcTemplate"></property>
+</bean>
+
+<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+<constructor-arg ref="dataSource"> </constructor-arg>
+</bean>
+
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+<property name="url" value="jdbc:mysql://localhost:3306/whf3"></property>
+<property name="username" value="root"></property>
+<property name="password" value="root"></property>
+</bean>
+
+
+
+
+</beans>

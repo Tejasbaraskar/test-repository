@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Feb 19 12:50:28 IST 2021
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Aaba\\.m2\\repository\\org\\springframework\\spring-web\\5.3.3\\spring-web-5.3.3.jar=G\:\\Software\\Spring Tool 3.9.9\\spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\product-management\\WEB-INF\\lib\\spring-web-5.3.3.jar
+org.eclipse.jst.j2ee.server\:product-management=G\:\\Software\\Spring Tool 3.9.9\\spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\product-management

@@ -1,0 +1,8 @@
+package com.zensar.SecureApp.models;
+
+public class Secureuser {
+
+	private int id;
+	private String username;
+	private String password;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.zensar.SpringAopDemo&apos; to &apos;com.zensar&apos;&#x0D;&#x0A;- Original project: &apos;SpringAopDemo&apos;&#x0D;&#x0A;- Original element: &apos;SpringAopDemo/src/main/java/com.zensar.SpringAopDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringAopDemo/src/main/java/com.zensar&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.zensar.SpringAopDemo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.zensar.SpringAopDemo" name="com.zensar" qualified="false" references="true" stamp="1613545685627" textual="false" version="1.0"/>
+</session>
